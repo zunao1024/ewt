@@ -2,7 +2,8 @@
 ### PS.默认省略常见请求头
 
 ## 目录
-[登录](#登录)
+[登录](#登录)  
+[账户信息](#账户信息)
 
 ### 登录
 **POST**
@@ -18,7 +19,7 @@ https://gateway.ewt360.com/api/authcenter/v2/oauth/login/account
   |Secretid|2|
   |Sign||签名[说明](Uni.md#签名)|
   |Timestamp||当前时间戳，毫秒|
-* 请求参数
+* 请求内容
   ```JSON
   {
     "platform": 1,
@@ -78,4 +79,4 @@ https://web.ewt360.com/api/usercenter/user/info
   |---|---|---|
   |Accept|application/json||
   |Token||用登录api获取|
-  User-Agent|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0||
+  |User-Agent|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0||
